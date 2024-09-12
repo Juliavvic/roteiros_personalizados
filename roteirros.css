@@ -1,14 +1,15 @@
 .roboto-thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .galindo-regular {
+    font-family: "Galindo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 *{
     margin: 0;
@@ -18,12 +19,13 @@
 }
 
 body {
-    font-family: Arimo, sans-serif;
+    font-family:"Galindo", sans-serif;
     background-color: #ffffff;
     padding: 20px;
 }
 
 .container {
+    font-family:"Roboto", sans-serif;
     max-width: 600px;
     margin: 0 auto;
     background-color: rgb(42, 181, 56);
@@ -33,13 +35,14 @@ body {
 }
 
 h1 {
-    font-family: Arimo, sans-serif;
+    font-family: "Galindo", sans-serif;
     text-align: center;
     margin-bottom: 20px;
     color: #000000;
 }
 
 form {
+    font-family: "Galindo", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center; /* Centraliza os elementos */
@@ -47,12 +50,14 @@ form {
 }
 
 label {
+
     color: #000000;
     text-align: center;
     margin-bottom: 10px;
 }
 
 select, button {
+    font-family: "Galindo", sans-serif;
     width: 100%; /* Deixar todos os elementos com a mesma largura */
     padding: 10px; /* Reduzir o padding */
     margin-bottom: 15px;
