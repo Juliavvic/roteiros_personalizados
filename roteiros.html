@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roteiro Turístico Personalizado</title>
+    <link rel="stylesheet" href="roteirros.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crie seu Roteiro Turístico Personalizado</h1>
+        <form id="roteiroForm">
+            <label for="dias">Escolha quantos dias de roteiro você deseja (1 a 3):</label>
+            <select id="dias" name="dias">
+                <option value="1">1 dia</option>
+                <option value="2">2 dias</option>
+                <option value="3">3 dias</option>
+            </select>
+            <div id="roteirosContainer"></div>
+            <button type="submit">Criar Roteiro</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="roteiro.js"></script>
+    <h3>Tire print do seu resultado e mande  para  o guia</h3>
+</body>
+</html>
